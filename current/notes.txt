@@ -1,0 +1,9 @@
+train model_notraps_50k and model_traps_50k, 100k, 150k
+
+iteration #4
+ - 3 closest traps
+ - Replaced dynamic distance reward with a clean oscillate blocker
+
+iteration #5 <-- training
+ - Radar function - is trap directly up/down/left/right? Instead of 3 closest - change obs space to 10 - done
+ - Increased step reward to -1 - done
